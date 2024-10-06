@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  background: #1d1d1d;
+  color: #f0f0f0;
+  font-family: "Open Sans", "Trebuchet MS", Arial, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 950px;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+}
+
+.tw-wrap {
+  display: flex;
+  flex-flow: column;
+  max-height: 600px;
+  overflow-y: auto;
+  width: 100%;
+}
+
+#tw-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.tw {
+  background: #2d2d2d;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}
+
+#tw-input {
+  width: 100%;
+}
+.sender {
+  display: flex;
+  gap: 1rem;
+}
+
+.tw {
+  display: flex;
+  /*justify-content: space-between;*/
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.tw-username {
+  font-weight: 600;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.125rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  border: 0;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid #4d4d4d;
+  color: #f0f0f0;
+}
+.btn-secondary:hover {
+  border: 2px solid #5d5d5d;
+  cursor: pointer;
+}
+.btn-secondary:active {
+  border: 2px solid #3d3d3d;
+}
+
+#tw-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 950px;
+  margin: auto;
+}
+
+#tw-input {
+  border-radius: 0.5rem;
+  border: 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  background: #3d3d3d;
+  color: #f0f0f0;
+}
+
+body {
+  scrollbar-width: thin;
+  scrollbar-color: #4d4d4d transparent;
+}
+
+#send-tw {
+  background-color: #4d4d4d;
+  color: #f0f0f0;
+}
+
+#send-tw:hover {
+  background-color: #5d5d5d;
+  cursor: pointer;
+}
+#send-tw:active {
+  background-color: #3d3d3d;
+}
+
+.heart {
+  background: url("heart.svg") no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.tw-like {
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5rem;
+  font-weight: 500;
+  gap: 0.5rem;
+}

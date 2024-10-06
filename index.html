@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 5 — Twitter-like system</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="/dist/bundle.js" defer></script>
+  </head>
+  <body>
+    <div id="root">
+      <header>
+        <h1>Twitter-like system</h1>
+        <button class="btn btn-secondary" id="get-tw">Update</button>
+      </header>
+      <div id="tw-wrapper">
+        <form class="sender" id="sender">
+          <input
+            id="tw-input"
+            type="text"
+            placeholder="Type your post here..."
+            maxlength="400"
+          />
+          <button class="btn btn-primary" type="submit" id="send-tw">
+            Post
+          </button>
+        </form>
+        <div class="tw-wrap">
+          <div id="tw-list"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
