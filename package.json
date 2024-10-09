@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript && npx serve",
+    "start": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript && npx serve dist/",
     "build": "rollup --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
     "lint": "npx eslint . --report-unused-disable-directives --max-warnings 0 && npx prettier . --check"
   },
