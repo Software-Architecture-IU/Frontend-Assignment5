@@ -1,4 +1,4 @@
-export const POSTS_URL = "https://tw-posts.stress-testers.ru/";
+export const POSTS_URL = "https://tw-posts.stress-testers.ru";
 export const LIKES_URL = "https://tw-likes.stress-testers.ru";
 export const AUTH_URL = "https://tw-users.stress-testers.ru";
 export const POLL_POSTS_INTERVAL = 1000;

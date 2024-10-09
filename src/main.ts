@@ -25,7 +25,7 @@ let posts: Post[] = [];
 
 function pollPostsServer() {
   const usernameStorage = window.localStorage.getItem("username");
-  fetch(`${POSTS_URL}/posts?username=${usernameStorage!}`)
+  fetch(`${POSTS_URL}/posts/?username=${usernameStorage!}`)
     .then((res) => res.json())
     .then((data: Post[]) => {
       if (data && data.length) {
