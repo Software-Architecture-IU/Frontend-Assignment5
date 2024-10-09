@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Auth — Assignment 5 — Twitter-like system</title>
+    <link rel="stylesheet" href="../main.css" />
+    <script src="/dist/bundle.js" defer></script>
+  </head>
+  <body style="height: 100%">
+    <div id="root" style="height: 100%">
+      <div id="tw-auth-wrapper" style="height: 100%">
+        <h1>Login</h1>
+        <form class="auth-sender" id="auth-sender" onsubmit="return false;">
+          <label class="auth-label" htmlFor="tw-input-auth-username"
+            >Username</label
+          >
+          <input
+            id="tw-input-auth-username"
+            class="tw-input"
+            type="text"
+            placeholder="user"
+            maxlength="400"
+          />
+          <button class="btn btn-primary" type="submit" id="send-auth-tw">
+            Login
+          </button>
+        </form>
+        <span>Do not have an account? <a href="/register">Register</a></span>
+      </div>
+    </div>
+  </body>
+</html>

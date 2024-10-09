@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register — Assignment 5 — Twitter-like system</title>
+    <link rel="stylesheet" href="../main.css" />
+    <script src="/dist/bundle.js" defer></script>
+  </head>
+  <body style="height: 100%">
+    <div id="root" style="height: 100%">
+      <div id="tw-auth-wrapper" style="height: 100%">
+        <h1>Register</h1>
+        <form class="auth-sender" id="register-sender" onsubmit="return false;">
+          <label class="auth-label" htmlFor="tw-input-register-username"
+            >Username</label
+          >
+          <input
+            id="tw-input-register-username"
+            class="tw-input"
+            type="text"
+            placeholder="user"
+            maxlength="400"
+          />
+          <button class="btn btn-primary" type="submit" id="send-register-tw">
+            Register
+          </button>
+        </form>
+        <span>Already have an account? <a href="/auth">Log in</a></span>
+      </div>
+    </div>
+  </body>
+</html>
