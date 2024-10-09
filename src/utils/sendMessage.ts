@@ -5,7 +5,9 @@ export function sendMessage() {
   const postInput = document.getElementById("tw-input") as HTMLInputElement;
   const content = postInput.value;
   fetch(
-    `${POSTS_URL}/posts?${new URLSearchParams({ username: usernameStorage! })}`,
+    `${POSTS_URL}/posts/?${new URLSearchParams({
+      username: usernameStorage!,
+    })}`,
     {
       method: "POST",
       headers: {
