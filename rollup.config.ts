@@ -30,6 +30,16 @@ const bundle = [
   {
     input: "index.html",
     output: { dir: "dist" },
+    plugins: [html()],
+  },
+  {
+    input: "auth/index.html",
+    output: { dir: "dist/auth" },
+    plugins: [html()],
+  },
+  {
+    input: "register/index.html",
+    output: { dir: "dist/register" },
     plugins: [
       html(),
       clean({
