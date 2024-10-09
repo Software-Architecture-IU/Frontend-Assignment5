@@ -1,6 +1,6 @@
-export const POSTS_URL = "http://stress-testers.ru:8043";
-export const LIKES_URL = "http://stress-testers.ru:5888";
-export const AUTH_URL = "http://stress-testers.ru:8999";
+export const POSTS_URL = "https://tw-posts.stress-testers.ru";
+export const LIKES_URL = "https://tw-likes.stress-testers.ru";
+export const AUTH_URL = "https://tw-users.stress-testers.ru";
 export const POLL_POSTS_INTERVAL = 1000;
 export const POLL_LIKES_INTERVAL = 1000;
 export const LIKE_ICON =
