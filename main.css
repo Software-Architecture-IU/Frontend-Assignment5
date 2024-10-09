@@ -25,7 +25,7 @@ header {
 
 #tw-list {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: 0.5rem;
   padding-right: 0.5rem;
 }
@@ -125,4 +125,48 @@ body {
   padding: 0.5rem;
   font-weight: 500;
   gap: 0.5rem;
+}
+
+.auth-sender {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+#tw-auth-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.tw-input {
+  border-radius: 0.5rem;
+  border: 0;
+  padding: 0.5rem 1rem;
+  font-size: 1.125rem;
+  font-weight: 500;
+  background: #3d3d3d;
+  color: #f0f0f0;
+}
+
+.auth-label {
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+.tw-like-active path {
+  fill: white;
+}
+
+.tw-buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+span a {
+  color: white;
 }
